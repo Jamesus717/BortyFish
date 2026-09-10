@@ -87,3 +87,31 @@ Ollie asks **three MSPs he already knows**:
 
 If all three say "spreadsheet, half a day a month, painful" — that's the product.
 If they say "our PSA handles it" — kill it and move on, cheaply.
+
+---
+
+## PARKED 2026-09-10 — and why
+
+Real problem, real money, but **wrong project for what James wants to learn.** It needs no
+Kubernetes (one container would do) and AI adds nothing — it's reconciliation and arithmetic.
+Picking it would mean working against his own goals with no deadline to force him through.
+
+Kept here in case Ollie ever wants it. See `direction-self-hosted-ai.md` for the direction taken
+instead.
+
+---
+
+## Short version for Ollie
+
+An MSP bills each client monthly for things that keep changing — Microsoft 365 seats, monitored
+devices, backup storage. Those numbers live in different systems that don't talk to each other, so
+the invoice drifts away from reality. Someone reconciles it by hand in a spreadsheet every month.
+Every gap is either money the MSP never billed, or a client being overcharged who eventually
+notices.
+
+Tools already exist for this: BillingReconcile charges **$129–$649/month flat**, Syncro charges
+**$129–$179 per technician per month**.
+
+Our angle would have been flat pricing plus self-hosting — "runs on your own kit, your client
+billing data never leaves". The reason we parked it is fit, not viability. If you think it's worth
+a look, say so.
