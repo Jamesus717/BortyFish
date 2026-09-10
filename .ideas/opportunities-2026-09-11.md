@@ -1,5 +1,9 @@
 # Opportunities — 2026-09-11
 
+**UPDATE 2026-09-10:** the VERIFIED section below has since been filled in from pages actually
+fetched in the interactive session. Leads 1 and 3 are now resolved. The original low-confidence
+warning still applies to everything in the SEARCH-SNIPPET and INFERRED sections.
+
 **Confidence: LOW.** Egress probe (see `routine-log.md`, 2026-09-10 20:30 BST) found 9 of 10
 target domains blocked by the sandbox's network proxy — same failure as the previous routine.
 Only `github.com` was directly fetchable; it carries no pricing data. **Every money figure below
@@ -16,9 +20,50 @@ same reason (see INFERRED section) even though they showed strong pricing eviden
 
 ## VERIFIED (fetched from a primary source)
 
-None. No pricing or revenue page was reachable this run. This section is empty because the
-egress proxy blocked every vendor site tried, not because no evidence exists — see WHAT I COULD
-NOT VERIFY.
+Filled in 2026-09-10 by the interactive session, which is not behind the sandbox egress proxy.
+These pages were actually fetched.
+
+### 1. Google Sheets data connector — STRONG, best fit
+
+**Coefficient** — https://coefficient.io/pricing (fetched 2026-09-10)
+
+| Tier | Price |
+|---|---|
+| Free | $0 — 3 sources, 5k rows, 50 refreshes/mo |
+| Starter | **$49/mo** — "solo builders operationalising manual workflows" |
+| Pro | **$99/user/mo** — small teams, hourly refresh, 5 users |
+| Enterprise | Custom |
+
+**Why it matters:** people pay $49–$99 *per user per month* to get messy third-party data into a
+spreadsheet on a schedule. That is exactly what SecretLeague already does (Imprint API → Google
+Sheets → live site), including the hard part: reconciling an upstream API that lies.
+
+Sheetgo exists in the same space but hides pricing behind per-product pages (fetched, no figures).
+
+**Biggest reason it fails:** the generic version is taken. This only works aimed at one specific
+vertical whose data source nobody else has bothered to connect.
+
+### 2. Embedded analytics — real money, WRONG SHAPE
+
+**Luzmo** — https://www.luzmo.com/pricing (fetched 2026-09-10)
+
+- **From €1,995/month**, billed annually, platform fee + usage
+- Customers named: Grubhub, Lansweeper, Greenly, Marigold
+
+**Verdict: skip.** The money is real but it's enterprise — annual contracts, procurement, security
+reviews, competing against funded companies. Unwinnable on evenings and weekends, and nothing
+about the price point suits a first product.
+
+### 3. Premium Discord bot — KILLED
+
+Discord's entire Premium Apps programme is **an estimated $5–19M per year in total**, roughly
+0.5–2% of Discord's revenue, split across every developer on the platform. Discord takes 15% of
+the first $1M, then 30%.
+Source: https://techpoint.africa/guide/how-does-discord-make-money/ (search snippet — the page
+itself was not fetched, so treat the figure as approximate).
+
+**Verdict: dead.** Even a dominant share of that category wouldn't support two people. The pond is
+too small regardless of execution.
 
 ---
 
