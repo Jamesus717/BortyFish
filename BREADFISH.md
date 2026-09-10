@@ -63,7 +63,17 @@ We looked into it on 10 Sep 2026. Killed the same day.
 
 *Full reasoning in `.ideas/decisions.md`.*
 
-### 🔎 Being looked into
+### 👉 Current focus — read this one
+
+**TradeBinder** — reviving James's Pokémon card trading app and adding "TradeHubs" (real card
+shops as safe in-person trading venues).
+
+**Pitch written for you: `.ideas/pitch-ollie-tradebinder.md`** — start there. It covers what's
+already built, where your infra and GPU work fits, and the honest risks.
+
+Repo: https://github.com/Jamesus717/TradeVaultFirstEd
+
+### 🔎 Also looked into
 
 A proper research run happens **tonight (10 Sep, 20:30)**. It's looking for things people are
 **already paying for** that we could build in evenings and weekends.
