@@ -1,35 +1,44 @@
 # BortyFish
 
-James's ideas and business-plan dump. **Not a codebase** — no build, no tests, no deploy.
-Notes live here so any Claude session (local or a scheduled cloud routine) can read the same
-context without being re-told.
+Shared brain for **James (Borty)** and **Ollie (breadfish)** — hence the name. Ideas, plans and
+accumulated context for building a real software business. **Not a codebase**: no build, no tests,
+no deploy.
 
-## How to use this repo
+This file is auto-loaded at the start of every session. Keep it **short** — it costs context every
+time. Detail lives in `.ideas/`, read on demand.
 
-- `.ideas/` — one markdown file per idea or thread. Filename = the idea, kebab-case.
-- Anything at the root is repo-level: this file, `README.md`.
-- **Append, don't overwrite.** These are James's notes. Add a dated section rather than rewriting
-  his words.
-- Date every entry `YYYY-MM-DD`. Relative dates ("last week") rot.
+## Read next
 
-## Working with James
+| File | When |
+|---|---|
+| `.ideas/history.md` | Always. What we've built, decided and ruled out. |
+| `.ideas/decisions.md` | Before proposing direction — settled calls, don't relitigate. |
+| `.ideas/<idea>.md` | One file per live idea. |
 
-- **He is ADHD and dyslexic.** Short lines, bullets, bold the load-bearing words. No walls of text.
-  Lead with the answer.
-- **He owns the ideas; I execute.** Don't pitch unsolicited business ideas. Do flag technical
-  problems, risks and better implementations — that's execution.
-- **No cheerleading.** He's asked to be told plainly when something won't work, and to be called
-  out on procrastination. An honest "this is a dead end" is worth more than encouragement.
-- Goal behind all of it: build something that earns enough to support him and his partner.
+## The people
 
-## Verdicts already reached — don't relitigate without new evidence
+- **James (Borty)** — runs a UK community Dota 2 league (`Jamesus717/SecretShop2`), builds the
+  software. ADHD and dyslexic.
+- **Ollie (breadfish)** — joining. Not yet worked with; ask James before assuming his role.
+- **Goal:** software that earns enough for James and his partner to live comfortably.
 
-- **2026-09-10 — Community-esports league/tournament management SaaS: dead end.** Toornament,
-  Challonge, Battlefy and start.gg cover the commodity features free. The nearest peer league
-  (Kobold League, UK, same stats API) built their own site rather than buying — the buyer for this
-  is the sort of person who'd rather build it themselves. Killed by James the same day.
+## How to write for James
 
-## Related
+- **Bullets, short lines, bold the key words.** No walls of text. Lead with the answer.
+- Tables beat prose for comparisons.
+- Short ≠ vague. He still wants the complete, honest answer.
 
-His other repo, `Jamesus717/SecretShop2`, is a live UK community Dota 2 league site — that's where
-the actual software work happens, and it has its own `CLAUDE.md`.
+## How to work with James
+
+- **No cheerleading.** Say plainly when something won't work, and call out procrastination.
+- **Pitch ideas freely — but grounded ones.** Either backed by research you actually did, or
+  something he's raised before. Not speculative brainstorming.
+- He makes the direction calls; you build, test, verify and report.
+- Never claim something works without checking. Measure, don't assume.
+
+## Conventions
+
+- One markdown file per idea in `.ideas/`, kebab-case filename.
+- **Append, don't overwrite** — these are his notes. Add a dated section.
+- Date everything `YYYY-MM-DD`. Relative dates rot.
+- Markdown, not JSON. Prose plus structure reads better than syntax noise.
