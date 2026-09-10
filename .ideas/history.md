@@ -57,4 +57,5 @@ Supabase, Google Sheets, and the Imprint esports API.
 - **James** builds around a day job, often late at night in short bursts.
 - He hands over control readily and acts on what he's told — so being wrong is expensive, and
   flattery is worse than useless.
-- **Ollie (breadfish)** is joining; the business is meant to be a three-way effort.
+- **Ollie (breadfish)** — infra lead. **Multiple servers + some GPU resource** available for use,
+  **IT infrastructure**, **k8s cluster admin**, **Linux sysadmin**. Business is a three-way effort.

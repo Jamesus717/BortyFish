@@ -9,8 +9,8 @@
 
 We have three assets most people building this don't:
 
-1. **Ollie's servers with real GPU compute** — already paid for
-2. **Ollie's container/k8s/Linux skill** — the ops most solo builders can't do
+1. **Ollie's servers + some GPU resource** — multiple machines available for use, already paid for
+2. **Ollie's ops skill** — **IT infrastructure**, **k8s cluster admin**, **Linux sysadmin** — the ops most solo builders can't do
 3. **No time pressure** — we can take the slow, hard route
 
 The single biggest barrier to self-hosting AI is hardware: **$10,000–$15,000** before you start.

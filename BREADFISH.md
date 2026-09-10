@@ -20,7 +20,7 @@ Not a hobby. Not an app we never charge for.
 | Who | Does |
 |---|---|
 | **James** | Builds the software. Runs a Dota 2 league (110 players) as the practice ground. |
-| **Ollie (you)** | TBD — James will fill this in. |
+| **Ollie (you)** | Infra lead — **multiple servers + some GPU resource** available for use, **IT infrastructure**, **k8s cluster admin**, **Linux sysadmin**. |
 | **Claude** | Builds, tests, researches, checks facts. Tells us when we're wrong. |
 
 ---

@@ -81,7 +81,7 @@ That's a well-scoped piece of work, not a rewrite.
 Ranked by value, with the traps marked.
 
 ### 1. Self-hosted card scanning service — **start here**
-The actual differentiator. Every competitor pays a cloud API per scan; on Ollie's GPUs the
+The actual differentiator. Every competitor pays a cloud API per scan; on Ollie's GPU resource the
 marginal cost is electricity.
 
 Cleanly separable: an HTTP service that takes an image and returns a card ID. The Next app calls

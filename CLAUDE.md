@@ -19,7 +19,8 @@ time. Detail lives in `.ideas/`, read on demand.
 
 - **James (Borty)** — runs a UK community Dota 2 league (`Jamesus717/SecretShop2`), builds the
   software. ADHD and dyslexic.
-- **Ollie (breadfish)** — joining. Not yet worked with; ask James before assuming his role.
+- **Ollie (breadfish)** — infra lead. **Multiple servers + some GPU resource** available for use,
+  **IT infrastructure**, **k8s cluster admin**, **Linux sysadmin**.
 - **Goal:** software that earns enough for James and his partner to live comfortably.
 
 ## How to write for James

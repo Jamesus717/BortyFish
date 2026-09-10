@@ -78,7 +78,7 @@ This is the first idea where the asset isn't the code — it's the network.
 Honestly, neither is the headline. But both have a real place:
 
 - **Card scanning needs AI** — and it's now table stakes, so it's needed for *parity*, not
-  advantage. The advantage is cost: running recognition on Ollie's GPUs means **no per-scan API
+  advantage. The advantage is cost: running recognition on Ollie's GPU resource means **no per-scan API
   fee**, which is a genuine margin edge over rivals paying per call at scale.
 - **Kubernetes** — a Next.js app doesn't need it. Self-hosting the scanning model does: GPU
   scheduling, scale-to-zero when idle, rolling model updates. Legitimate, but it belongs at the

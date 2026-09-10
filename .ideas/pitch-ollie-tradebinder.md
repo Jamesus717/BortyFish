@@ -70,7 +70,7 @@ engineering:
 Every rival app scans cards with AI (Collectr, TCGDex, DittoDex — all shipping). It's table stakes
 now, so we need it. But they all pay a cloud API per scan.
 
-**We wouldn't.** Running recognition on your GPUs means the marginal cost of a scan is
+**We wouldn't.** Running recognition on your GPU resource means the marginal cost of a scan is
 electricity. At volume that's a real margin advantage, and it's the kind of thing that's very hard
 to undo once it's working.
 
