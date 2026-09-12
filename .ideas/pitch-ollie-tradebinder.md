@@ -119,3 +119,13 @@ That's a better k8s and self-hosted-AI portfolio piece than anything you'd build
 and it stays useful regardless of whether the business works.
 
 No deadline on any of this.
+
+---
+
+## Update 2026-09-12
+
+- **Live link above is dead.** Current build: https://tradevaultfirstedition1.jamesfburt69.workers.dev/
+- **New infra job with a deadline:** the Pokémon TCG API the app is built on is deprecated and
+  existing keys stop working **2027-03-01**. We need our own copy of the card catalogue (sets,
+  cards, images) before then. That's squarely your side — and it's the same dataset card scanning
+  would train/match against. Details in `history.md`, 2026-09-12.

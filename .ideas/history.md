@@ -59,3 +59,22 @@ Supabase, Google Sheets, and the Imprint esports API.
   flattery is worse than useless.
 - **Ollie (breadfish)** — infra lead. **Multiple servers + some GPU resource** available for use,
   **IT infrastructure**, **k8s cluster admin**, **Linux sysadmin**. Business is a three-way effort.
+
+---
+
+## 2026-09-12 — TradeBinder: the card data has an expiry date
+
+Found while testing the overnight branch against the real database:
+
+- **The Pokémon TCG API is deprecated.** dev.pokemontcg.io: new registrations closed, **existing
+  keys work through 2027-03-01**. Successor is **Scrydex** — paid, credit-metered. Every set, card,
+  image and price in TradeBinder comes from it. It's also flaky now: ~65% of requests 500'd today.
+- **eBay's Finding API was shut down 2025-02-05.** TradeBinder's pricing used it, and a dev mock
+  flag had been baked into the live build — **every card on the live site showed £7.50**. Fixed on
+  the branch: real TCGplayer market prices, converted to GBP.
+- The old `tradevault.jamesfburt69.workers.dev` URL is dead (Cloudflare 1042). The live build is at
+  `tradevaultfirstedition1.jamesfburt69.workers.dev`.
+
+**Why it matters for the plan:** owning the card catalogue (a copy in our own database, on Ollie's
+kit or Supabase) stops being a nice-to-have — it has a deadline. It's also the dataset card
+scanning would need anyway.
