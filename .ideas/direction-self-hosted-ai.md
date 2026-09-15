@@ -114,3 +114,12 @@ Two findings that constrain anything built here:
 
 **The next test on this page has not moved since 2026-09-10.** Still one conversation, not more
 research.
+
+## 2026-09-15 — Ollie: airgapped install. Mechanism yes, market no.
+
+`.ideas/idea-disconnected-ai-install.md`. Installing on the client's disconnected metal fixes the
+data-processor problem above. But **Zarf already does the bundling**, free and DoD-hardened, and
+true airgap customers are the large regulated buyers this page ruled out on 2026-09-10.
+
+**Keep the mechanism, drop the target:** one-file offline install, sold to the small UK firms named
+above. Airgap capability is a credential, not a customer.
