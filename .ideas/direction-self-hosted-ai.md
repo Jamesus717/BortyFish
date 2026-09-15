@@ -96,3 +96,21 @@ Nothing to build yet. The question to answer first:
 
 Ollie's IT contacts are the fastest route — he'll already know firms with that exact objection.
 One real conversation beats another week of research.
+
+---
+
+## 2026-09-15 — a delivery shape for this, and a warning
+
+James and Ollie arrived back at this direction from a different door (an Otto ad → "guided model
+install + paid OpenWebUI"). Written up in **`.ideas/idea-private-ai-in-a-box.md`**.
+
+Two findings that constrain anything built here:
+
+- **If we host it, the legal wedge above disappears** — the data has left the client's building, we
+  become a GDPR data processor, and we're competing with managed OpenWebUI hosts at **€14/month**.
+  Install on *their* kit, or ship them a box.
+- **OpenWebUI cannot legally be de-branded above 50 end users** per deployment (BSD-3 + branding
+  clause, v0.6.6, April 2025). Fine per small-firm tenant; a wall at scale.
+
+**The next test on this page has not moved since 2026-09-10.** Still one conversation, not more
+research.
